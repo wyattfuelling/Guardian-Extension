@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Website blocked</title>
+  <style>
+    html, body { height: 100%; margin: 0; }
+    body {
+      display: flex; align-items: center; justify-content: center;
+      background: #08101e; color: #cdd8ea;
+      font-family: "Segoe UI", system-ui, sans-serif;
+    }
+    .card {
+      background: #0e1d32; border-left: 5px solid #ff7878;
+      padding: 40px 48px; max-width: 520px; border-radius: 6px;
+    }
+    .tag { color: #6fa8dc; font-size: 12px; font-weight: 600; letter-spacing: .08em; }
+    h1 { color: #fff; font-size: 28px; margin: 10px 0 8px; }
+    .site { color: #78beff; font-size: 18px; margin-bottom: 18px; word-break: break-all; }
+    p { line-height: 1.5; margin: 0 0 26px; color: #91a9c9; }
+    button {
+      background: #16395b; color: #fff; border: 0; padding: 10px 22px;
+      font-size: 14px; font-weight: 600; border-radius: 4px; cursor: pointer;
+    }
+    button:hover { background: #1e4a75; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="tag">CYBERFUELLING GUARDIAN</div>
+    <h1>This website is blocked</h1>
+    <div class="site" id="site"></div>
+    <p>This site is on your Guardian blocklist. You can change the list in the Guardian app under Block websites.</p>
+    <button id="back">Go back</button>
+  </div>
+  <script src="blocked.js"></script>
+</body>
+</html>
